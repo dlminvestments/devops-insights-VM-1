@@ -1,0 +1,14 @@
+platform :ios
+
+target 'YOUR_APP_NAME' do
+  use_frameworks!
+  pod "Rollbar", "~> 1.4.2"
+end
+import Rollbar
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        Rollbar.initWithAccessToken("fe14690b17534ab0ae115831e15afae8")
+        Rollbar.info(withMessage: "Test message to Rollbar")
+        //Rest of your code here...
+        return true
+    }
