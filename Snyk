@@ -1,0 +1,3 @@
+npm install -g snyk
+cd ~/projects/my-project/
+snyk monitor
