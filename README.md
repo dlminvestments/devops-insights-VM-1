@@ -17,7 +17,10 @@ iseries power systems v7.1, v7.2
 
 ![](/doc/source/images/streamsconsole15.png)
 	
-	* **Conclusion:** Data is growing fast in volume, variety, and complexity. Everyday, we create 2.5 quintillion bytes of data! Traditional analytic solutions are not able to fully/unlock the potential value of that data.
+# power-ops
+	Repository for contributing to an OpenPOWER Operational Management stack
+
+* **Conclusion:** Data is growing fast in volume, variety, and complexity. Everyday, we create 2.5 quintillion bytes of data! Traditional analytic solutions are not able to fully/unlock the potential value of that data.
 	**Conclusion:** Data is growing fast in volume, variety, and complexity. Everyday, we create 2.5 quintillion bytes of data! Traditional analytic solutions are not able to fully/unlock the potential value of that data.
 	
 	
