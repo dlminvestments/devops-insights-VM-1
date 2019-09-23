@@ -22,3 +22,15 @@ iseries power systems v7.1, v7.2
 	
 	
 	In a streams flow, you can access and analyze massive amounts of changing data as it is created. Regardless of whether the data is structured or unstructured, you can leverage data at scale to drive real-time analytics for up-to-the-minute business decisions.
+
+ibmcloud target --cf -g default
+	```
+	
+	This will use the IBM Cloud ResourceGroup `default`. To specify a different ResourceGroup, use the following command:
+	```bash
+	ibmcloud target -g <resource-group>
+	```
+	
+	## Installing the operator
+	
+	To install the latest release of the operator, run the following script:
