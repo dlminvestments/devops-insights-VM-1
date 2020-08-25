@@ -1,0 +1,2 @@
+- name: Continuous Benchmarking for Go
+  uses: bobheadxi/gobenchdata@v0.4.1
