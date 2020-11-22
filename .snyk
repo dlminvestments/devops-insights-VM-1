@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - grunt-bower-installer > bower > request > hawk:
+        patched: '2020-11-22T02:55:23.708Z'
+    - grunt-bower-installer > bower > bower-registry-client > request > hawk:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:http-signature:20150122':
+    - grunt-bower-installer > bower > request > http-signature:
+        patched: '2020-11-22T02:55:23.708Z'
+    - grunt-bower-installer > bower > bower-registry-client > request > http-signature:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:mime:20170907':
+    - grunt-bower-installer > bower > request > form-data > mime:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:minimatch:20160620':
+    - grunt-bower-installer > bower > glob > minimatch:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:request:20160119':
+    - grunt-bower-installer > bower > bower-registry-client > request:
+        patched: '2020-11-22T02:55:23.708Z'
+    - grunt-bower-installer > bower > request:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:semver:20150403':
+    - grunt-bower-installer > bower > semver:
+        patched: '2020-11-22T02:55:23.708Z'
+    - grunt-bower-installer > bower > update-notifier > semver-diff > semver:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:shell-quote:20160621':
+    - grunt-bower-installer > bower > shell-quote:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-bower-installer > bower > request > tunnel-agent:
+        patched: '2020-11-22T02:55:23.708Z'
+    - grunt-bower-installer > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2020-11-22T02:55:23.708Z'
+  'npm:uglify-js:20151024':
+    - grunt-bower-installer > bower > handlebars > uglify-js:
+        patched: '2020-11-22T02:55:23.708Z'
