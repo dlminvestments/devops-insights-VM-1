@@ -30,6 +30,6 @@
     "saucelabs": "^1.0.1",
     "selenium-webdriver": "3.6.0",
     "sinon": "^9.2.1",
-    "supertest": "^3.0.0"
+    "supertest": "^6.0.1"
   }
 }
