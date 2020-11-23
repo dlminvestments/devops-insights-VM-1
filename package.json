@@ -14,7 +14,7 @@
     "node": "^10.9.0"
   },
   "devDependencies": {
-    "chai": "^3.4.0",
+    "chai": "^4.2.0",
     "grunt": "^1.0.4",
     "node-sass": "^5.0.0",
     "grunt-available-tasks": "^0.6.2",
