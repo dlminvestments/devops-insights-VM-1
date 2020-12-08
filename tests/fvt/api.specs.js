@@ -1,7 +1,7 @@
 
 (function () {
 
-    'use strict';
+    
 
     var apiv1 = require('../../routes/apiv1');
     var assert = require('chai').assert;
