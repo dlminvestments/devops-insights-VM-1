@@ -3,17 +3,17 @@
 
   'use strict';
 
-	var requireHelper = require('./requireHelper');
-  var apiv1 = requireHelper.require('tests/coverage/instrumented/routes/apiv1');
-  var assert = require('chai').assert;
-  var sinon = require('sinon');
+	let requireHelper = require('./requireHelper');
+  let apiv1 = requireHelper.require('tests/coverage/instrumented/routes/apiv1');
+  let assert = require('chai').assert;
+  let sinon = require('sinon');
 
 
 
   // create mock request and response
-  var reqMock = {};
+  let reqMock = {};
 
-  var resMock = {};
+  let resMock = {};
   resMock.status = function() {
     return this;
   };
@@ -48,7 +48,7 @@
         }
       };
 
-      var request = function( obj, callback ){
+      let request = function( obj, callback ){
         callback("error", null, null);
       };
 
@@ -67,7 +67,7 @@
         }
       };
 
-      var request = function( obj, callback ){
+      let request = function( obj, callback ){
         callback(null, null, {});
       };
 
@@ -86,7 +86,7 @@
         }
       };
 
-      var body = {
+      let body = {
         cod: 200,
         name: 'El Paso',
         weather: [
@@ -99,7 +99,7 @@
         }
       };
 
-      var request = function( obj, callback ){
+      let request = function( obj, callback ){
         callback(null, null, body);
       };
 

@@ -3,16 +3,16 @@
 
 	'use strict';
 
-	var webdriver = require('selenium-webdriver');
-	var By = require('selenium-webdriver').By;
-	var until = require('selenium-webdriver').until;
-	var assert = require('assert');
-	var sauceLabs = require('saucelabs');
+	let webdriver = require('selenium-webdriver');
+	let By = require('selenium-webdriver').By;
+	let until = require('selenium-webdriver').until;
+	let assert = require('assert');
+	let sauceLabs = require('saucelabs');
     
-	var SAUCELABSURL = 'http://ondemand.saucelabs.com:80/wd/hub';
-	var DEMODRAURL = 'https://demodratest.mybluemix.net/#/';
+	let SAUCELABSURL = 'http://ondemand.saucelabs.com:80/wd/hub';
+	let DEMODRAURL = 'https://demodratest.mybluemix.net/#/';
 
-	var driver = new webdriver.Builder().
+	let driver = new webdriver.Builder().
         			usingServer(SAUCELABSURL).
         			withCapabilities(
         				{
@@ -26,7 +26,7 @@
     					}
     				).build();
 
-  var saucelab = new sauceLabs({
+  let saucelab = new sauceLabs({
           username: process.env.SAUCE_USERNAME,
           password: process.env.SAUCE_ACCESS_KEY
         });
@@ -79,7 +79,7 @@
 
     after(function(done) {
       driver.getSession().then(function(session) {
-        var jobId = session.getId();
+        let jobId = session.getId();
         //console.log(jobId);
         driver.quit();
         saucelab.stopJob(jobId, {}, function(){});

@@ -1,5 +1,5 @@
 
-var ConsoleModule = angular.module('ConsoleModule', ['ngRoute']);
+let ConsoleModule = angular.module('ConsoleModule', ['ngRoute']);
 
 ConsoleModule.config(['$routeProvider', '$locationProvider','$sceDelegateProvider', '$httpProvider',
     function ($routeProvider, $locationProvider, $sceDelegateProvider, $httpProvider) {
@@ -19,7 +19,7 @@ ConsoleModule.controller('wcontroller', ['$scope', '$http', '$routeParams', '$ti
 
     $scope.zip = function(which) {
 
-        var data = "";
+        let data = "";
         if(which === 1) {
             data = $scope.zip1m;
         } else if(which === 2) {

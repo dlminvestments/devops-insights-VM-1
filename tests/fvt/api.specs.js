@@ -3,15 +3,15 @@
 
     'use strict';
 
-    var apiv1 = require('../../routes/apiv1');
-    var assert = require('chai').assert;
-    var REQUEST = require('request');
+    let apiv1 = require('../../routes/apiv1');
+    let assert = require('chai').assert;
+    let REQUEST = require('request');
 
-    var request = REQUEST.defaults( {
+    let request = REQUEST.defaults( {
         strictSSL: false
     });
 
-    var appUrl = process.env.APP_URL;
+    let appUrl = process.env.APP_URL;
 
     describe('Get Weather', function() {
 
@@ -28,7 +28,7 @@
           		assert.fail('Failed to get the response');
           	} else {
               assert.equal(resp.statusCode, 200);
-              var pbody = JSON.parse(body);
+              let pbody = JSON.parse(body);
               assert(pbody.city === 'Austin', "City name does not match");
               done();
             }
@@ -66,7 +66,7 @@
           		assert.fail('Failed to get the response');
           	} else {
               assert.equal(resp.statusCode, 200);
-              var pbody = JSON.parse(body);
+              let pbody = JSON.parse(body);
               assert(pbody.city === 'New York', "City name does not match");
               done();
             }
