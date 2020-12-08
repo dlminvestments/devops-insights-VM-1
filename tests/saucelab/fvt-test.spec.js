@@ -1,7 +1,7 @@
 
 (function () {
 
-	'use strict';
+	
 
 	let webdriver = require('selenium-webdriver');
 	let By = require('selenium-webdriver').By;

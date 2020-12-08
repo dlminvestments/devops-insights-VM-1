@@ -1,7 +1,7 @@
 
 (function () {
 
-  'use strict';
+  
 
 	let requireHelper = require('./requireHelper');
   let apiv1 = requireHelper.require('tests/coverage/instrumented/routes/apiv1');
