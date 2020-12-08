@@ -1,7 +1,67 @@
 version = 1
 
-  [[analyzers]]
-  name = "python"
-  enabled = true
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
   runtime_version = "3.x.x"
-  
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_paths = ["github.com/dlminvestments/devops-insights-VM-1"]
+  dependencies_vendored = true
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
+name = "docker"
+enabled = true
+
+[[analyzers]]
+name = "ruby"
+enabled = true
+
+[[analyzers]]
+name = "terraform"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "nodejs",
+    "browser",
+    "jest",
+    "jquery",
+    "jasmine",
+    "mocha",
+    "mongo"
+  ]
+  plugins = [
+    "react",
+    "vue",
+    "ember",
+    "angular",
+    "meteor"
+  ]
+  dialect = "typescript"
+
+[[analyzers]]
+name = "sql"
+enabled = true
+
+[[analyzers]]
+name = "shell"
+enabled = true
+
+[[analyzers]]
+name = "java"
+enabled = true
