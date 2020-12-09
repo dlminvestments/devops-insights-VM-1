@@ -37,3 +37,5 @@ ibmcloud target --cf -g default
 	## Installing the operator
 	
 	To install the latest release of the operator, run the following script:
+
+<a href="https://codebeat.co/projects/github-com-dlminvestments-devops-insights-vm-1-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7a70bd11-8c14-4e3a-86c5-cb86920962aa" /></a>
