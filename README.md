@@ -41,3 +41,23 @@ ibmcloud target --cf -g default
 <a href="https://codebeat.co/projects/github-com-dlminvestments-devops-insights-vm-1-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7a70bd11-8c14-4e3a-86c5-cb86920962aa" /></a>
 
 [![Build Status](https://dev.azure.com/VM-1Systems/VM-1%20Systems/_apis/build/status/dlminvestments.devops-insights-VM-1%20(1)?branchName=azure-pipelines)](https://dev.azure.com/VM-1Systems/VM-1%20Systems/_build/latest?definitionId=19&branchName=azure-pipelines)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=INFRASTRUCTURE+SECURITY) 
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/cis_kubernetes)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=CIS+KUBERNETES+V1.5)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=CIS+AWS+V1.2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/cis_azure)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=CIS+AZURE+V1.1)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=PCI-DSS+V3.2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=NIST-800-53)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=ISO27001)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=SOC2)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=CIS+GCP+V1.1)
+
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/dlminvestments/devops-insights-vm-1/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=dlminvestments%2Fdevops-insights-VM-1&benchmark=HIPAA)
