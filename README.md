@@ -38,7 +38,7 @@ ibmcloud target --cf -g default
 	
 	To install the latest release of the operator, run the following script:
 
- /github/license/:user/:repo <a href="https://codebeat.co/projects/github-com-dlminvestments-devops-insights-vm-1-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7a70bd11-8c14-4e3a-86c5-cb86920962aa" /></a>
+<a href="https://codebeat.co/projects/github-com-dlminvestments-devops-insights-vm-1-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7a70bd11-8c14-4e3a-86c5-cb86920962aa" /></a>
 
 [![Build Status](https://dev.azure.com/VM-1Systems/VM-1%20Systems/_apis/build/status/dlminvestments.devops-insights-VM-1%20(1)?branchName=azure-pipelines)](https://dev.azure.com/VM-1Systems/VM-1%20Systems/_build/latest?definitionId=19&branchName=azure-pipelines)
 
