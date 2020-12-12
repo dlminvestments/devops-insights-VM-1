@@ -28,3 +28,4 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
       mongodb+srv://Dlminvestissements:<PARIS_dlm13>@cluster0.y1tfu.mongodb.net/<dlminvestissements >?retryWrites=true&w=majority
+      - mongodb://<dlminvestissements >:<PARIS_dlm13>@realm.mongodb.com:27020/?authMechanism=PLAIN&authSource=%24external&ssl=true&appName=vm-1-afmrk:mongodb-atlas:local-userpass
