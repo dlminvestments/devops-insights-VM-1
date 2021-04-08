@@ -27,7 +27,7 @@
     "grunt-sass": "3.1.0",
     "mocha": "8.3.2",
     "rewire": "5.0.0",
-    "saucelabs": "4.7.1",
+    "saucelabs": "4.7.3",
     "selenium-webdriver": "3.6.0",
     "sinon": "10.0.0",
     "supertest": "6.1.3"
