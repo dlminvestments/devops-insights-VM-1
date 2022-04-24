@@ -15,7 +15,11 @@
   },
   "devDependencies": {
     "chai": "4.3.6",
+snyk-fix-f24dc5bdbfc429e0e94d7690db0c62bc
+    "grunt": "1.5.0",
+=======
     "grunt": "1.5.2",
+master
     "node-sass": "7.0.1",
     "grunt-available-tasks": "0.6.3",
     "grunt-bower-installer": "0.3.6",
