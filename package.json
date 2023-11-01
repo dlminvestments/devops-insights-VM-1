@@ -29,7 +29,7 @@
     "rewire": "6.0.0",
     "saucelabs": "7.2.2",
     "selenium-webdriver": "4.10.0",
-    "sinon": "15.2.0",
+    "sinon": "17.0.1",
     "supertest": "6.3.3"
   }
 }
