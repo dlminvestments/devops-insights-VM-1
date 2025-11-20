@@ -25,7 +25,7 @@
     "grunt-istanbul": "0.8.0",
     "grunt-mocha-test": "0.13.3",
     "grunt-sass": "3.1.0",
-    "mocha": "10.2.0",
+    "mocha": "10.6.0",
     "rewire": "6.0.0",
     "saucelabs": "7.2.2",
     "selenium-webdriver": "4.10.0",
